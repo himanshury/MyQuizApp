@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questions"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center"
+
+    >
+
+    <TextView
+        android:textColor="@color/black"
+        android:id="@+id/questionTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="50px"
+        tools:text="Which country does this flag belong to?"
+        android:textSize="20sp"
+        android:gravity="center"
+        />
+
+    <ImageView
+
+        android:layout_width="300dp"
+        android:layout_height="175dp"
+        android:id="@+id/questionImg"
+        tools:src="@drawable/brazil"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+
+        >
+
+    </ImageView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="323dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20px"
+        android:max="10"
+        android:progress="0"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1/10"
+        android:id="@+id/progressId"
+        android:padding="15px"
+        >
+    </TextView>
+
+        ></LinearLayout>
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/option1"
+        tools:text="Option1"
+        android:textSize="35sp"
+        android:layout_margin="20dp"
+        android:textAlignment="center"
+        android:background="@drawable/option_bg"
+        ></TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/option2"
+        tools:text="Option2"
+        android:textSize="35sp"
+        android:background="@drawable/option_bg"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/option3"
+        android:background="@drawable/option_bg"
+        tools:text="Option3"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_margin="20dp"
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/option4"
+        tools:text="Option4"
+        android:background="@drawable/option_bg"
+        android:textSize="35sp"
+        android:textAlignment="center"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        >
+    </TextView>
+
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="SUBMIT"
+        android:textSize="25sp"></Button>
+
+
+
+
+</LinearLayout>
+
+
+

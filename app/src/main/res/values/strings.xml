@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyQuizApp</string>
+    <string name="myquizapp">MyQuizApp!</string>
+    <string name="result">RESULT</string>
+    <string name="hey_congratulations">Hey, Congratulations!!!</string>
+    <string name="winner_trophy">Winner trophy</string>
+</resources>
